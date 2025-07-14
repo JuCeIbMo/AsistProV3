@@ -477,7 +477,7 @@ export default function PricingModal({ isOpen, onClose, selectedPlan, isAnnual }
                 <div className="flex justify-between">
                   <span className="text-gray-600">WhatsApp:</span>
                   <span className="font-semibold text-sm">
-                    {selectedCountry.flag} {formatPhoneE164(selectedCountry.value, phoneNumber)}
+                    {selectedCountry.code} {formatPhoneE164(selectedCountry.value, phoneNumber)}
                   </span>
                 </div>
                 
